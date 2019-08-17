@@ -131,7 +131,6 @@ class PlayingArea(Deck):
             self.turn = 'comp'
             self.player_game()
         else:
-            print(comp)
             print('{:>110}'.format('--Computer turn--'))
             self.turn = 'player'
             self.comp_game()

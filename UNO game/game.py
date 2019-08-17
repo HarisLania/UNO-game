@@ -289,7 +289,7 @@ class PlayingArea(Deck):
                         self.ask()
 
                     else:
-                        self.player_game()
+                        self.ask()
 
                 elif bank_ask == 'n':
                     try:
